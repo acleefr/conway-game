@@ -14,7 +14,7 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 
 ## Requirements
 
-- Python 3.x
+- Python 3.0 or newer
 - matplotlib library
 
 ## Installation
@@ -23,7 +23,8 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 2. Install the required dependencies using pip:
 
 ```bash
-pip install -r requirements.txt
+pip install -r matplotlib
+pip install -r numpy
 ```
 
 ## Usage
@@ -31,11 +32,7 @@ pip install -r requirements.txt
 Run the main script `conway_game_of_life.py`:
 
 ```bash
-python conway_game_of_life.py
+python3 test-1.py
 ```
 
 This will start the simulation and display the evolution of the grid using matplotlib.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
